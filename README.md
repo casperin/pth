@@ -1,8 +1,16 @@
 # pth - What
 
-This is a simple helper for selectors in a React Redux environment. It
-simplifies the act of creating a function that pics out certain parts of your
-state depending on the arguments passed in.
+`pth` ("path") is a simple helper for selectors in a React Redux environment.
+It simplifies the act of creating a function that pics out certain parts of
+your state depending on the arguments passed in.
+
+## Install
+
+```sh
+npm i pth
+```
+
+## How
 
 At its simplest, you can compare these two functions:
 
