@@ -43,7 +43,7 @@ const getNameById = pth('$0.users.$1.name', {or: 'Mr Nobody'})
 const getNameById = pth('%0.users.%1.name', {identifier: '%'})
 
 // Change the splitter from . to ->
-const getNameById = pth('%0->users->%1.name', {splitter: '->'})
+const getNameById = pth('%0->users->%1->name', {splitter: '->'})
 ```
 
 ## pth.fromObject
