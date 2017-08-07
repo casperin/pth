@@ -49,9 +49,10 @@ const getNameById = pth('%0->users->%1->name', {splitter: '->'})
 ## pth.fromObject
 
 There is a second version where the returned function only takes two arguments:
-1) the object where we expect to find the data we are looking for, and 2) an
-object with the keys we need. The path string we pass to it also looks a little
-different (better if you ask me).
+
+1. the object where we expect to find the data we are looking for, and
+2. an object with the keys we need. The path string we pass to it also looks a
+   little different (better if you ask me).
 
 These two are equevalent:
 
