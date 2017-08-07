@@ -1,0 +1,14 @@
+{
+  "name": "pth",
+  "version": "1.0.0",
+  "description": "Dotting into objects",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Gorm Casper",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
