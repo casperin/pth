@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/casperin/pth.git"
+  },
   "author": "Gorm Casper",
   "license": "ISC",
   "devDependencies": {
